@@ -1,0 +1,13 @@
+table{
+    background-color: aliceblue;
+    border: 1px solid black;
+}
+
+@media screen and (max-width:500px) {
+    
+}
+
+
+tr{
+    border: 1px solid black;
+}

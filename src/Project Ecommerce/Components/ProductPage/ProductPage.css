@@ -1,0 +1,36 @@
+.productDetail {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+.closebtn {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    border: none;
+    background-color: inherit;
+    font-size: 35px;
+    cursor: pointer;
+    box-shadow: 1px 4px 15px 4px #00000033;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+.closebtn:hover {
+    box-shadow: none;
+}
+.left {
+    width: 500px;
+}
+
+.left img {
+    height: 600px;
+    width: 600px;
+}
+.right {
+    width: 600px;
+}
